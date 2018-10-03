@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <LangVersion>7.1</LangVersion>
+
+        <Version>0.1.0</Version>
+        <Authors>Alexey Zimarev</Authors>
+        <PackageProjectUrl>https://github.com/alexeyzimarev/MassTransit.AppMetrics</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/alexeyzimarev/MassTransit.AppMetrics.git</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <Description>Metrics collector for MassTransit consumers, using the AppMetrics library</Description>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="App.Metrics.Core" Version="2.1.0"/>
+        <PackageReference Include="MassTransit" Version="5.1.5"/>
+    </ItemGroup>
+
+</Project>
